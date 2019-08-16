@@ -33,7 +33,10 @@ class ZoopServiceProvider extends ServiceProvider {
 
         $configFile = __DIR__.'/resources/config/config.php';
 
-        $this->mergeConfigFrom($configFile, 'zoopconfig');
+        if($configFile){
+            $this->mergeConfigFrom($configFile, 'zoopconfig');
+        }
+        
 
         $service = ZoopBase::getSingleton($this->app['config']->get('zoopconfig', []));
 
