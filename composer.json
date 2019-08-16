@@ -1,5 +1,5 @@
 {
-    "name": "adhenrique/zoop",
+    "name": "zoopcodificar/zoop",
     "description": "Zoop SDK to Laravel framework version 5.3+",
     "keywords": [
         "Zoop",
@@ -14,8 +14,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Adenilton Henrique Ribeiro",
-            "email": "adhenriquemusic@gmail.com"
+            "name": "Lucas Emanuel",
+            "email": "lucas.emanuel@codificar.com.br"
         }
     ],
     "require": {
@@ -24,8 +24,8 @@
         "ext-json": "*",
         "ext-mbstring": "*"
     },
-    "autoload" :{
-        "psr-4" : {
+    "autoload": {
+        "psr-4": {
             "Zoop\\": "src/"
         }
     }
