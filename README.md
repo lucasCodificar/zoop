@@ -21,7 +21,7 @@ Zoop-laravel is a package for **Laravel 5.3+**, which consumes ZOOP payments api
 Use composer to install the package and automatically update `composer.json`, running:
 
 ~~~
-composer require adhenrique/zoop
+composer require zoopcodificar/zoop
 ~~~
 
 ### 2 - Update Laravel configuration
