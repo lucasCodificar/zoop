@@ -33,7 +33,7 @@ class ZoopServiceProvider extends ServiceProvider {
 
         $configFile = __DIR__.'/resources/config/config.php';
 
-        if($configFile){
+        if(file_exists($configFile)){
             $this->mergeConfigFrom($configFile, 'zoopconfig');
         }
         
